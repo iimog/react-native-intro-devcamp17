@@ -15,3 +15,8 @@ If you want to re-build the app as demonstrated at the devcamp17 follow these st
 9. Make it playable by calling setState on touches ([03_playable.js](prepared/03_playable.js))
 10. Add logic to detect if the game is over and who is the winner ([04_winner.js](prepared/04_winner.js))
 11. Finalize the app to make it a little more visually pleasing ([05_final.js](prepared/05_final.js))
+
+# LICENSE
+All code in the [prepared](prepared) folder is available under [MIT License](LICENSE).
+The presentation in the [slides](slides) folder is available under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Third party content with own licenses are [FontAwesome](slides/LICENSE-fontawesome) and [revealjs](slides/LICENSE-revealjs).
