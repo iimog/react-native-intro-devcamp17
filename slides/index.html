@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>React Native devcamp17</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/moon.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+	var link = document.createElement( 'link' );
+	link.rel = 'stylesheet';
+	link.type = 'text/css';
+	link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+	document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background-image="img/28290983333_d6e748140c_o.jpg">
+				<h2>&nbsp;</h2>
+				<h2>&nbsp;</h2>
+				<h4>learn once, write anywhere</h4>
+				<p>Markus Ankenbrand <a href="https://github.com/iimog"><i class="fa fa-github"></i>iimog</a></p>
+			</section>
+			<section data-markdown>
+				<script type="text/template">
+## Hello Devcamp
+```javascript
+import React, { Component } from 'react';
+import { AppRegistry, Text, View } from 'react-native';
+
+class HelloDevcamp extends Component {
+  render() {
+    return (
+      <View>
+        <Text>Hello Devcamp</Text>
+      </View>
+    );
+  }
+}
+
+// App registration and rendering
+AppRegistry.registerComponent('HelloDevcamp', () => HelloDevcamp);
+```
+				</script>
+			</section>
+			<section>
+				<h2>Let's go</h2>
+				<img src="img/noun_76612_cc_mod.svg" width="500px"></img>
+                                <p><small>CC-BY 3.0 - Tic Tac Toe by Rohit Arun Rao from the Noun Project</small></p>
+			</section>
+			<section>
+				<h2>More</h2>
+				<ul>
+					<li><a href="https://facebook.github.io/react-native/docs/getting-started.html">facebook.github.io/react-native</a></li>
+					<li>Redux</li>
+					<li>Flow</li>
+					<li>Expo</li>
+				</ul>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+	// More info https://github.com/hakimel/reveal.js#configuration
+	Reveal.initialize({
+		history: true,
+
+		// More info https://github.com/hakimel/reveal.js#dependencies
+		dependencies: [
+			{ src: 'plugin/markdown/marked.js' },
+			{ src: 'plugin/markdown/markdown.js' },
+			{ src: 'plugin/notes/notes.js', async: true },
+			{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+		]
+	});
+	</script>
+</body>
+</html>
